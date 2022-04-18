@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIEVENT_IMPORT_REQUEST_MESSA1</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZAIEVENT_IMPORT_REQUEST_MESSA1</OBJ_NAME_M>
+     <HASH_ID>2462EF8C4556612874A1FAD282701177C763A3F5</HASH_ID>
+     <ID>&lt;message&gt; EventImportRequestMessage urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>EventImportRequestMessage</IFR_NAME>
+     <IFR_NSPCE>urn:Ariba:Sourcing:vrealm_3008</IFR_NSPCE>
+     <IFR_GNSPCE>urn:Ariba:Sourcing:vrealm_3008</IFR_GNSPCE>
+     <GEN_VERS>0006</GEN_VERS>
+     <PREFIX>ZAI</PREFIX>
+     <CATEGORY>ifmmessage</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>urn:Ariba:Sourcing:vrealm_3008</X-ML_NSPCE>
+     <X-ML_NAME>EventImportRequest</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIEVENT_IMPORT_REQUEST_MESSA1</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>PARTITION</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>PARTITION</OBJ_NAME2>
+     <ID>&lt;attribute&gt; partition &lt;message&gt; EventImportRequestMessage urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>attribute</IFR_TYPE>
+     <IFR_NAME>partition</IFR_NAME>
+     <IFR_TAGTYP>A</IFR_TAGTYP>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>PARTITION</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIEVENT_IMPORT_REQUEST_MESSA1</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>VARIANT</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>VARIANT</OBJ_NAME2>
+     <ID>&lt;attribute&gt; variant &lt;message&gt; EventImportRequestMessage urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>attribute</IFR_TYPE>
+     <IFR_NAME>variant</IFR_NAME>
+     <IFR_TAGTYP>A</IFR_TAGTYP>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>VARIANT</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIEVENT_IMPORT_REQUEST_MESSA1</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>WSRFXDOCUMENT_INPUT_BEAN_ITEM</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>WSRFXDOCUMENT_INPUT_BEAN_ITEM</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZAIEVENT_IMPORT_REQUEST_MESSAG</OBJ_NAME_R>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}WSRFXDocumentInputBean_Item &lt;message&gt; EventImportRequestMessage urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>WSRFXDocumentInputBean_Item</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>WSRFXDOCUMENT_INPUT_BEAN_ITEM</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIEVENT_IMPORT_REQUEST_MESSA1</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZAIEVENT_IMPORT_REQUEST_MESSA1</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZAIEVENT_IMPORT_REQUEST_MESSA1</OBJ_NAME2>
+     <ID>&lt;message&gt; EventImportRequestMessage urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>EventImportRequestMessage</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZAIEVENT_IMPORT_REQUEST_MESSA1</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmmessage</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

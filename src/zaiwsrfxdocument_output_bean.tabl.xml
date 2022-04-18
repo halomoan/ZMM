@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZAIWSRFXDOCUMENT_OUTPUT_BEAN</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>Proxy Structure (generated)</DDTEXT>
+    <MASTERLANG>E</MASTERLANG>
+    <PROXYTYPE>X</PROXYTYPE>
+    <EXCLASS>4</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>CONTROLLER</FIELDNAME>
+     <ROLLNAME>PRXCTRLTAB</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <DATATYPE>TTYP</DATATYPE>
+     <MASK>  TTYPL</MASK>
+     <COMPTYPE>L</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>CONTENTS</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>y</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>RSTR</DATATYPE>
+     <MASK>  RSTR</MASK>
+     <DDTEXT>Event Contents that defines items, rules and participants.</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>DOCUMENT_ID</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>g</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>STRG</DATATYPE>
+     <MASK>  STRG</MASK>
+     <DDTEXT>Document Id. E.g., Doc1234</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ERROR_MESSAGE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>g</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>STRG</DATATYPE>
+     <MASK>  STRG</MASK>
+     <DDTEXT>Message returned from the service execution.</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>STATUS</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>X</INTTYPE>
+     <INTLEN>000004</INTLEN>
+     <DATATYPE>INT4</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  INT4</MASK>
+     <DDTEXT>Return status. 0 indicates success.Status code returned from</DDTEXT>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

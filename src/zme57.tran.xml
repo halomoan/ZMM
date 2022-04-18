@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>ZME57</TCODE>
+    <PGMNA>ZMMRGB_0002</PGMNA>
+    <DYPNO>1000</DYPNO>
+    <CINFO>hA==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>ZME57</TCODE>
+    <S_WEBGUI>1</S_WEBGUI>
+    <S_WIN32>X</S_WIN32>
+    <S_PLATIN>X</S_PLATIN>
+    <S_DUMMY>X</S_DUMMY>
+    <S_DUMMY1>X</S_DUMMY1>
+    <S_DUMMY2>X</S_DUMMY2>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>E</SPRSL>
+    <TCODE>ZME57</TCODE>
+    <TTEXT>Assign and Process Requisitions</TTEXT>
+   </TSTCT>
+   <AUTHORIZATIONS>
+    <TSTCA>
+     <TCODE>ZME57</TCODE>
+     <OBJCT>M_BANF_WRK</OBJCT>
+     <FIELD>ACTVT</FIELD>
+     <VALUE>02</VALUE>
+    </TSTCA>
+    <TSTCA>
+     <TCODE>ZME57</TCODE>
+     <OBJCT>M_BANF_WRK</OBJCT>
+     <FIELD>WERKS</FIELD>
+    </TSTCA>
+   </AUTHORIZATIONS>
+   <I18N_TPOOL>
+    <TSTCT>
+     <SPRSL>1</SPRSL>
+     <TTEXT>分配和处理申请</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>D</SPRSL>
+     <TTEXT>Bestellanf. zuordnen und bearbeiten</TTEXT>
+    </TSTCT>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

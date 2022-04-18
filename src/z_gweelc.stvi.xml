@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_STVI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <STVI>
+    <SHDTVCIU>
+     <TCVARIANT>Z_GWEELC</TCVARIANT>
+     <TCODE>MK05</TCODE>
+     <VERSION>4</VERSION>
+    </SHDTVCIU>
+    <SHDTTCIU>
+     <SHDTTCIU>
+      <LANGU>E</LANGU>
+      <TCVARIANT>Z_GWEELC</TCVARIANT>
+      <TCVTEXT>Don&apos;t allow to select all Porg</TCVTEXT>
+     </SHDTTCIU>
+    </SHDTTCIU>
+    <SHDTVSVCIU>
+     <SHDTVSVCIU>
+      <TCVARIANT>Z_GWEELC</TCVARIANT>
+      <SCVARIANT>Z_GWEELC_0507</SCVARIANT>
+     </SHDTVSVCIU>
+     <SHDTVSVCIU>
+      <TCVARIANT>Z_GWEELC</TCVARIANT>
+      <SCVARIANT>Z_GWEELC_0510</SCVARIANT>
+     </SHDTVSVCIU>
+    </SHDTVSVCIU>
+   </STVI>
+  </asx:values>
+ </asx:abap>
+</abapGit>

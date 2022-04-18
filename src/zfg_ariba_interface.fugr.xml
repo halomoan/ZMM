@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Ariba Interface with SAP ECC</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFG_ARIBA_INTERFACETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFG_ARIBA_INTERFACE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZMM_ARIBA_OUTBOUND</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Ariba Interface with SAP ECC</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>RFQ_NO</PARAMETER>
+       <TYP>EBELN</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>HEADER</PARAMETER>
+       <TYP>EKKO</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ITEM</PARAMETER>
+       <DBSTRUCT>EKPO</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>RFQ_NO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Purchasing Document Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>HEADER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Purchasing Document Header</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ITEM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Purchasing Document Item</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

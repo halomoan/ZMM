@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSAWARD_EXPORT_OUTPUT_BEAN</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZAIWSAWARD_EXPORT_OUTPUT_BEAN</OBJ_NAME_M>
+     <HASH_ID>13A35FBD41522C97036F011CBA7ABA0B0E5B8C37</HASH_ID>
+     <ID>&lt;type&gt; WSAwardExportOutputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>WSAwardExportOutputBean</IFR_NAME>
+     <IFR_NSPCE>urn:Ariba:Sourcing:vrealm_3008</IFR_NSPCE>
+     <IFR_GNSPCE>urn:Ariba:Sourcing:vrealm_3008</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZAI</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>urn:Ariba:Sourcing:vrealm_3008</X-ML_NSPCE>
+     <X-ML_NAME>WSAwardExportOutputBean</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSAWARD_EXPORT_OUTPUT_BEAN</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>AWARD_DOCUMENT</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>AWARD_DOCUMENT</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}AwardDocument &lt;type&gt; WSAwardExportOutputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>AwardDocument</IFR_NAME>
+     <IFR_TEXT>Contents of the award document (CSV file), base64 encoded.</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>base64Binary</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>AWARD_DOCUMENT</R3_NAME>
+     <R3_TEXT>Contents of the award document (CSV file), base64 encoded.</R3_TEXT>
+     <R3_DATATYP>RSTR</R3_DATATYP>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSAWARD_EXPORT_OUTPUT_BEAN</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ERROR_MESSAGE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ERROR_MESSAGE</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}ErrorMessage &lt;type&gt; WSAwardExportOutputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>ErrorMessage</IFR_NAME>
+     <IFR_TEXT>Message returned from the service execution.</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ERROR_MESSAGE</R3_NAME>
+     <R3_TEXT>Message returned from the service execution.</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSAWARD_EXPORT_OUTPUT_BEAN</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>MIME_TYPE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>MIME_TYPE</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}MimeType &lt;type&gt; WSAwardExportOutputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>MimeType</IFR_NAME>
+     <IFR_TEXT>MIME encoding type used for the award document. The mime type of the exported file is application/ex</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>MIME_TYPE</R3_NAME>
+     <R3_TEXT>MIME encoding type used for the award document. The mime typ</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSAWARD_EXPORT_OUTPUT_BEAN</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>STATUS</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>STATUS</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}Status &lt;type&gt; WSAwardExportOutputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>Status</IFR_NAME>
+     <IFR_TEXT>Return status. 0 indicates success.</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>integer</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>STATUS</R3_NAME>
+     <R3_TEXT>Return status. 0 indicates success.</R3_TEXT>
+     <R3_DATATYP>INT4</R3_DATATYP>
+     <R3_SEQNUM>000004</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSAWARD_EXPORT_OUTPUT_BEAN</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZAIWSAWARD_EXPORT_OUTPUT_BEAN</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZAIWSAWARD_EXPORT_OUTPUT_BEAN</OBJ_NAME2>
+     <ID>&lt;type&gt; WSAwardExportOutputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>WSAwardExportOutputBean</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZAIWSAWARD_EXPORT_OUTPUT_BEAN</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

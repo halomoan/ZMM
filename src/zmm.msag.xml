@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZMM</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>MM message class</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMM</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMM</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>No suitable Number range found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMM</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>You are not authorised to approve Reservation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMM</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Reservation has already been approved, changes not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMM</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Reservation has already been approved, New item can not be added</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMM</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>You are not authorised for this program</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMM</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>You are not authorised for Purchasing Organization &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMM</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Sourcelist for material &amp;1 plant &amp;2 successfully created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMM</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Sourcelist for material &amp; not created due to missing plant</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMM</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>PIR &amp;1 for material &amp;2 has been updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMM</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Please maintain material &amp;1 conversion unit in material master</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>1</SPRSL>
+     <ARBGB>ZMM</ARBGB>
+     <STEXT>MM message class</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>No suitable Number range found</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>You are not authorised to approve Reservation</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Reservation has already been approved, changes not allowed</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Reservation has already been approved, New item can not be added</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

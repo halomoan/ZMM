@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSRFXDOCUMENT_INPUT_BEAN</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZAIWSRFXDOCUMENT_INPUT_BEAN</OBJ_NAME_M>
+     <HASH_ID>9CA9FD86FEDB0E32F61CE835DCFDFAEDAA52C1C5</HASH_ID>
+     <ID>&lt;type&gt; WSRFXDocumentInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>WSRFXDocumentInputBean</IFR_NAME>
+     <IFR_NSPCE>urn:Ariba:Sourcing:vrealm_3008</IFR_NSPCE>
+     <IFR_GNSPCE>urn:Ariba:Sourcing:vrealm_3008</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZAI</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>urn:Ariba:Sourcing:vrealm_3008</X-ML_NSPCE>
+     <X-ML_NAME>WSRFXDocumentInputBean</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSRFXDOCUMENT_INPUT_BEAN</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ACTION</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ACTION</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}Action &lt;type&gt; WSRFXDocumentInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>Action</IFR_NAME>
+     <IFR_TEXT>Specifies the action for the task.  Valid values: Create (creates an event from an unused Document C</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ACTION</R3_NAME>
+     <R3_TEXT>Specifies the action for the task.  Valid values: Create (cr</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSRFXDOCUMENT_INPUT_BEAN</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ATTACHMENTS</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ATTACHMENTS</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}Attachments &lt;type&gt; WSRFXDocumentInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>Attachments</IFR_NAME>
+     <IFR_TEXT>File attachments for the event, in a ZIP file that is base64 encoded.</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>base64Binary</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ATTACHMENTS</R3_NAME>
+     <R3_TEXT>File attachments for the event, in a ZIP file that is base64</R3_TEXT>
+     <R3_DATATYP>RSTR</R3_DATATYP>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSRFXDOCUMENT_INPUT_BEAN</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>CONTENTS</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>CONTENTS</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}Contents &lt;type&gt; WSRFXDocumentInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>Contents</IFR_NAME>
+     <IFR_TEXT>Event Contents that defines items, rules and participants. A base64-encoded file, where the file is</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>base64Binary</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>CONTENTS</R3_NAME>
+     <R3_TEXT>Event Contents that defines items, rules and participants. A</R3_TEXT>
+     <R3_DATATYP>RSTR</R3_DATATYP>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSRFXDOCUMENT_INPUT_BEAN</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>DOCUMENT_ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>DOCUMENT_ID</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}DocumentId &lt;type&gt; WSRFXDocumentInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>DocumentId</IFR_NAME>
+     <IFR_TEXT>DocumentId: Specifies the document ID for the event, such as Doc1234. If Action=Create or CreateAdho</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>DOCUMENT_ID</R3_NAME>
+     <R3_TEXT>DocumentId: Specifies the document ID for the event, such as</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000004</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSRFXDOCUMENT_INPUT_BEAN</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>DOCUMENT_NAME</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>DOCUMENT_NAME</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}DocumentName &lt;type&gt; WSRFXDocumentInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>DocumentName</IFR_NAME>
+     <IFR_TEXT>Specifies the event name. If Action=Create, specify the name of the existing Document Choice documen</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>DOCUMENT_NAME</R3_NAME>
+     <R3_TEXT>Specifies the event name. If Action=Create, specify the name</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000005</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSRFXDOCUMENT_INPUT_BEAN</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ON_BEHALF_USER_ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ON_BEHALF_USER_ID</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}OnBehalfUserId &lt;type&gt; WSRFXDocumentInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>OnBehalfUserId</IFR_NAME>
+     <IFR_TEXT>Specifies the user ID of the user for whom the Ariba web service will perform the action. User id on</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ON_BEHALF_USER_ID</R3_NAME>
+     <R3_TEXT>Specifies the user ID of the user for whom the Ariba web ser</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000006</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSRFXDOCUMENT_INPUT_BEAN</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ON_BEHALF_USER_PASSWORD_ADAPTE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ON_BEHALF_USER_PASSWORD_ADAPTE</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}OnBehalfUserPasswordAdapter &lt;type&gt; WSRFXDocumentInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>OnBehalfUserPasswordAdapter</IFR_NAME>
+     <IFR_TEXT>Specifies the password adapter to authenticate the user in the OnBehalfUserId element.  If you are n</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ON_BEHALF_USER_PASSWORD_ADAPTE</R3_NAME>
+     <R3_TEXT>Specifies the password adapter to authenticate the user in t</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000007</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSRFXDOCUMENT_INPUT_BEAN</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>REPLACE_EVENT_CONTENT</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>REPLACE_EVENT_CONTENT</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}ReplaceEventContent &lt;type&gt; WSRFXDocumentInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>ReplaceEventContent</IFR_NAME>
+     <IFR_TEXT>If true, the current event contents will be replaced.</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>boolean</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>REPLACE_EVENT_CONTENT</R3_NAME>
+     <R3_TEXT>If true, the current event contents will be replaced.</R3_TEXT>
+     <R3_DTREF>XSDBOOLEAN</R3_DTREF>
+     <R3_SEQNUM>000009</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSRFXDOCUMENT_INPUT_BEAN</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>RFXDOCUMENT_HEADER_FIELDS</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>RFXDOCUMENT_HEADER_FIELDS</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZAIRFXDOCUMENT_WSPROJECT_IMPO6</OBJ_NAME_R>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}RFXDocumentHeaderFields &lt;type&gt; WSRFXDocumentInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>RFXDocumentHeaderFields</IFR_NAME>
+     <IFR_TEXT>HeaderFields: All values are xsd:string unless otherwise noted.
+ BaseLanguage: (Optional) Specifies</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>RFXDOCUMENT_HEADER_FIELDS</R3_NAME>
+     <R3_TEXT>HeaderFields: All values are xsd:string unless otherwise not</R3_TEXT>
+     <R3_SEQNUM>000008</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSRFXDOCUMENT_INPUT_BEAN</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>TEMPLATE_ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>TEMPLATE_ID</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}TemplateId &lt;type&gt; WSRFXDocumentInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>TemplateId</IFR_NAME>
+     <IFR_TEXT>System ID that specifies the template to use to create the event. This is the ID of the document tem</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>TEMPLATE_ID</R3_NAME>
+     <R3_TEXT>System ID that specifies the template to use to create the e</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000010</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSRFXDOCUMENT_INPUT_BEAN</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>WORKSPACE_ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>WORKSPACE_ID</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}WorkspaceId &lt;type&gt; WSRFXDocumentInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>WorkspaceId</IFR_NAME>
+     <IFR_TEXT>Specifies the sourcing project (workspace) ID in which the event will be created or updated. If Acti</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>WORKSPACE_ID</R3_NAME>
+     <R3_TEXT>Specifies the sourcing project (workspace) ID in which the e</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000011</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSRFXDOCUMENT_INPUT_BEAN</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZAIWSRFXDOCUMENT_INPUT_BEAN</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZAIWSRFXDOCUMENT_INPUT_BEAN</OBJ_NAME2>
+     <ID>&lt;type&gt; WSRFXDocumentInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>WSRFXDocumentInputBean</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZAIWSRFXDOCUMENT_INPUT_BEAN</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

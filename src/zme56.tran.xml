@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>ZME56</TCODE>
+    <PGMNA>ZMM_RM06BZ00</PGMNA>
+    <DYPNO>1000</DYPNO>
+    <CINFO>hA==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>ZME56</TCODE>
+    <S_WEBGUI>1</S_WEBGUI>
+    <S_WIN32>X</S_WIN32>
+    <S_PLATIN>X</S_PLATIN>
+    <S_DUMMY>X</S_DUMMY>
+    <S_DUMMY1>X</S_DUMMY1>
+    <S_DUMMY2>X</S_DUMMY2>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>E</SPRSL>
+    <TCODE>ZME56</TCODE>
+    <TTEXT>Assign Source to Purch. Requisition</TTEXT>
+   </TSTCT>
+   <AUTHORIZATIONS>
+    <TSTCA>
+     <TCODE>ZME56</TCODE>
+     <OBJCT>M_BANF_WRK</OBJCT>
+     <FIELD>ACTVT</FIELD>
+     <VALUE>02</VALUE>
+    </TSTCA>
+    <TSTCA>
+     <TCODE>ZME56</TCODE>
+     <OBJCT>M_BANF_WRK</OBJCT>
+     <FIELD>WERKS</FIELD>
+    </TSTCA>
+   </AUTHORIZATIONS>
+   <I18N_TPOOL>
+    <TSTCT>
+     <SPRSL>1</SPRSL>
+     <TTEXT>将货源分配给采购申请</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>D</SPRSL>
+     <TTEXT>Bezugsquelle zu Bestellanf. zuordnen</TTEXT>
+    </TSTCT>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSSOURCING_PROJECT_INPUT_BE</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZAIWSSOURCING_PROJECT_INPUT_BE</OBJ_NAME_M>
+     <HASH_ID>531CAF9DF245363858FA8B84FA86A8A292E73E48</HASH_ID>
+     <ID>&lt;type&gt; WSSourcingProjectInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>WSSourcingProjectInputBean</IFR_NAME>
+     <IFR_NSPCE>urn:Ariba:Sourcing:vrealm_3008</IFR_NSPCE>
+     <IFR_GNSPCE>urn:Ariba:Sourcing:vrealm_3008</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZAI</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>urn:Ariba:Sourcing:vrealm_3008</X-ML_NSPCE>
+     <X-ML_NAME>WSSourcingProjectInputBean</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSSOURCING_PROJECT_INPUT_BE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ACTION</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ACTION</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}Action &lt;type&gt; WSSourcingProjectInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>Action</IFR_NAME>
+     <IFR_TEXT>The action for the task.  Valid values: Create (creates a new project), Update (update project field</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ACTION</R3_NAME>
+     <R3_TEXT>The action for the task.  Valid values: Create (creates a ne</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSSOURCING_PROJECT_INPUT_BE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ON_BEHALF_USER_ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ON_BEHALF_USER_ID</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}OnBehalfUserId &lt;type&gt; WSSourcingProjectInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>OnBehalfUserId</IFR_NAME>
+     <IFR_TEXT>Specifies the user ID of the user for whom the Ariba web service will perform the action. User id on</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ON_BEHALF_USER_ID</R3_NAME>
+     <R3_TEXT>Specifies the user ID of the user for whom the Ariba web ser</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSSOURCING_PROJECT_INPUT_BE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ON_BEHALF_USER_PASSWORD_ADAPTE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ON_BEHALF_USER_PASSWORD_ADAPTE</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}OnBehalfUserPasswordAdapter &lt;type&gt; WSSourcingProjectInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>OnBehalfUserPasswordAdapter</IFR_NAME>
+     <IFR_TEXT>Specifies the password adapter to authenticate the user in the OnBehalfUserId element.  If you are n</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ON_BEHALF_USER_PASSWORD_ADAPTE</R3_NAME>
+     <R3_TEXT>Specifies the password adapter to authenticate the user in t</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSSOURCING_PROJECT_INPUT_BE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>PARENT_WORKSPACE_ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>PARENT_WORKSPACE_ID</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}ParentWorkspaceId &lt;type&gt; WSSourcingProjectInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>ParentWorkspaceId</IFR_NAME>
+     <IFR_TEXT>Parent  workspace ID. Example: WS1234. This is used for creating subprojects</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>PARENT_WORKSPACE_ID</R3_NAME>
+     <R3_TEXT>Parent  workspace ID. Example: WS1234. This is used for crea</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000004</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSSOURCING_PROJECT_INPUT_BE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>PROJECT_HEADER_FIELDS</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>PROJECT_HEADER_FIELDS</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZAISOURCING_PROJECT_WSPROJECT5</OBJ_NAME_R>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}ProjectHeaderFields &lt;type&gt; WSSourcingProjectInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>ProjectHeaderFields</IFR_NAME>
+     <IFR_TEXT>HeaderFields: All values are xsd:string unless otherwise noted.
+ BaseLanguage: (Optional) Specifies</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>PROJECT_HEADER_FIELDS</R3_NAME>
+     <R3_TEXT>HeaderFields: All values are xsd:string unless otherwise not</R3_TEXT>
+     <R3_SEQNUM>000005</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSSOURCING_PROJECT_INPUT_BE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>TEMPLATE_ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>TEMPLATE_ID</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}TemplateId &lt;type&gt; WSSourcingProjectInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>TemplateId</IFR_NAME>
+     <IFR_TEXT>Project template ID. Example: SYS1234. If Action element is Update, this element is ignored.</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>TEMPLATE_ID</R3_NAME>
+     <R3_TEXT>Project template ID. Example: SYS1234. If Action element is</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000006</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSSOURCING_PROJECT_INPUT_BE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>WORKSPACE_ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>WORKSPACE_ID</OBJ_NAME2>
+     <ID>&lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}WorkspaceId &lt;type&gt; WSSourcingProjectInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>WorkspaceId</IFR_NAME>
+     <IFR_TEXT>Specifies the workspace ID of the project.</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>WORKSPACE_ID</R3_NAME>
+     <R3_TEXT>Specifies the workspace ID of the project.</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000007</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAIWSSOURCING_PROJECT_INPUT_BE</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZAIWSSOURCING_PROJECT_INPUT_BE</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZAIWSSOURCING_PROJECT_INPUT_BE</OBJ_NAME2>
+     <ID>&lt;type&gt; WSSourcingProjectInputBean urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>WSSourcingProjectInputBean</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZAIWSSOURCING_PROJECT_INPUT_BE</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

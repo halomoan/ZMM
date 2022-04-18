@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>ZMM_0017</TCODE>
+    <PGMNA>AQTGMM==========MAT_DOC_PYGN==</PGMNA>
+    <DYPNO>1000</DYPNO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>ZMM_0017</TCODE>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>E</SPRSL>
+    <TCODE>ZMM_0017</TCODE>
+    <TTEXT>Reconcile GR with invoice for PYGN</TTEXT>
+   </TSTCT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

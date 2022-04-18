@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZAIWSSOURCING_PROJECT_INPUT_BE</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>Proxy Structure (generated)</DDTEXT>
+    <MASTERLANG>E</MASTERLANG>
+    <PROXYTYPE>X</PROXYTYPE>
+    <EXCLASS>4</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>CONTROLLER</FIELDNAME>
+     <ROLLNAME>PRXCTRLTAB</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <DATATYPE>TTYP</DATATYPE>
+     <MASK>  TTYPL</MASK>
+     <COMPTYPE>L</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ACTION</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>g</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>STRG</DATATYPE>
+     <MASK>  STRG</MASK>
+     <DDTEXT>The action for the task.  Valid values: Create (creates a ne</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ON_BEHALF_USER_ID</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>g</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>STRG</DATATYPE>
+     <MASK>  STRG</MASK>
+     <DDTEXT>Specifies the user ID of the user for whom the Ariba web ser</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ON_BEHALF_USER_PASSWORD_ADAPTE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>g</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>STRG</DATATYPE>
+     <MASK>  STRG</MASK>
+     <DDTEXT>Specifies the password adapter to authenticate the user in t</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>PARENT_WORKSPACE_ID</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>g</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>STRG</DATATYPE>
+     <MASK>  STRG</MASK>
+     <DDTEXT>Parent  workspace ID. Example: WS1234. This is used for crea</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>PROJECT_HEADER_FIELDS</FIELDNAME>
+     <ROLLNAME>ZAISOURCING_PROJECT_WSPROJECT5</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <DATATYPE>STRU</DATATYPE>
+     <MASK>  STRUS</MASK>
+     <COMPTYPE>S</COMPTYPE>
+     <PROXYTYPE>X</PROXYTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>TEMPLATE_ID</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>g</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>STRG</DATATYPE>
+     <MASK>  STRG</MASK>
+     <DDTEXT>Project template ID. Example: SYS1234. If Action element is</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>WORKSPACE_ID</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>g</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>STRG</DATATYPE>
+     <MASK>  STRG</MASK>
+     <DDTEXT>Specifies the workspace ID of the project.</DDTEXT>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

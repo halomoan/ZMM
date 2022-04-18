@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZTBMAXSEL</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZSYST_LONG</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>16</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Maximum Number of Selected Entries</DDTEXT>
+    <REPTEXT>Maximum No. of Hits</REPTEXT>
+    <SCRTEXT_S>Max. Hits</SCRTEXT_S>
+    <SCRTEXT_M>Max. no. of hits</SCRTEXT_M>
+    <SCRTEXT_L>Maximum No. of Hits</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>选择条目的最大数目</DDTEXT>
+     <REPTEXT>最大命中数量</REPTEXT>
+     <SCRTEXT_S>最大命中数</SCRTEXT_S>
+     <SCRTEXT_M>最大命中数量</SCRTEXT_M>
+     <SCRTEXT_L>最大命中数量</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Maximal selektierte Einträge</DDTEXT>
+     <REPTEXT>Maximale Trefferzahl</REPTEXT>
+     <SCRTEXT_S>Max. Tref.</SCRTEXT_S>
+     <SCRTEXT_M>Max. Trefferzahl</SCRTEXT_M>
+     <SCRTEXT_L>Maximale Trefferzahl</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZTBMAXSEL</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00009</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZTBMAXSEL</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Beim Zugriff auf die Datenbank werden maximal die hier angegebenen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Anzahl an Zeilen gelesen, womit die Wartezeit auf die Ergebnismenge,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/=</TDFORMAT>
+       <TDLINE>z.B. bei einer zu groben oder fehlerhaften Eingrenzung der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Selektionsbedingungen, stark reduziert werden kann.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der Zugriff auf die Datenbank erfolgt unsortiert; die Daten werden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/=</TDFORMAT>
+       <TDLINE>auf der Liste aber sortiert angezeigt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ist das von Ihnen gesuchte Objekt nicht Teil der Ergebnismenge und sind</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/=</TDFORMAT>
+       <TDLINE>genausoviele Objekte selektiert worden wie Sie abgegrenzt haben, so</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/=</TDFORMAT>
+       <TDLINE>erhöhen Sie bitte die Max. Trefferzahl.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZTBMAXSEL</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00008</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZTBMAXSEL</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>When you access the database, the number of lines specified here is the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>maximum to be read. This can significantly reduce the system response</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/=</TDFORMAT>
+       <TDLINE>time if the selection is not specific enough, or contains errors.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The database access is unsorted; however, the data is displayed</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/=</TDFORMAT>
+       <TDLINE>sorted in the list.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If the object for which you are searching is not part of the result</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/=</TDFORMAT>
+       <TDLINE>selection, and the list contains the exact number of entries that you</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/=</TDFORMAT>
+       <TDLINE>specified, you should increase the maximum number of hits.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

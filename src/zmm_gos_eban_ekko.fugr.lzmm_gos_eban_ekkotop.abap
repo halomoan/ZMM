@@ -1,0 +1,2 @@
+FUNCTION-POOL ZMM_GOS_EBAN_EKKO.            "MESSAGE-ID ..
+

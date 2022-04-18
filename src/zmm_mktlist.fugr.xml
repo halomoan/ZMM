@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>MM Market List Data Entry</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZMM_MKTLISTTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZMM_MKTLIST</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZMKT_EXECAUTOPO</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Execute Auto PO Creation</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>WERKS</PARAMETER>
+       <TYP>WERKS_D</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>BANFN</PARAMETER>
+       <TYP>BANFN</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_MESSAGE</PARAMETER>
+       <TYP>CHAR255</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>WERKS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Plant</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BANFN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Purchase Requisition Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_MESSAGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Status</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZMKT_GETMATERIAL</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Get Material Items</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>KOSTL</PARAMETER>
+       <TYP>KOSTL</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>CURR_DATE</PARAMETER>
+       <TYP>DATUM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PLANT</PARAMETER>
+       <TYP>WERKS_D</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>LOCKSTATUS</PARAMETER>
+       <TYP>CHAR13</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MATERIAL_LIST</PARAMETER>
+       <DBSTRUCT>ZMM_MKTLISTDETAIL</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>KOSTL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Cost Center</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CURR_DATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Date</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PLANT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Plant Table for National (Centrally Agreed) Contracts</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LOCKSTATUS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Character field 13 digits</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MATERIAL_LIST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Market List Item</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZMKT_GETUSERPROF</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Get User Profiles</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>USERPROFILE</PARAMETER>
+       <DBSTRUCT>ZMM_MKTUSRPROF</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>USERPROFILE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Market List User Profile</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZMKT_UPDMRKTLIST</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Update Market List</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_NUMBER</PARAMETER>
+       <TYP>BANFN</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>MKTLIST_EH</PARAMETER>
+       <DBSTRUCT>ZMM_MKTLIST_EH</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>MKTLIST_ED</PARAMETER>
+       <DBSTRUCT>ZMM_MKTLIST_S</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>MESSAGE</PARAMETER>
+       <DBSTRUCT>ZMM_MKTMESSAGE</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>E_NUMBER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Purchase Requisition Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MKTLIST_EH</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>MM Market List Records</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MKTLIST_ED</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>MM Market List Structure</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MESSAGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Function Formatted Return Message</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

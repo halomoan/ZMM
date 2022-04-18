@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>PO Release group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ_POREGRPTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ_POREGRP</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_PORELGRP</FUNCNAME>
+     <SHORT_TEXT>Z_POREGRP</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>UNAME</PARAMETER>
+       <DEFAULT>SY-UNAME</DEFAULT>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SY-UNAME</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IT_EKPO</PARAMETER>
+       <TYP>ZZEKPO</TYP>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>REL_CODE_NOT_FOUND</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>REL_GRP_NOT_FOUND</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>UNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>User Name</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_EKPO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table structure for PO release group</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>REL_CODE_NOT_FOUND</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Release code not found</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>REL_GRP_NOT_FOUND</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Release group</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

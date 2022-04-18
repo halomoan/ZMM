@@ -1,0 +1,8 @@
+"Name: \PR:RM06W003\IC:FM06ICWQ\SE:END\EI
+ENHANCEMENT 0 ZMM_ME05_ADDPARAM.
+* Add customized field for zme05
+  PARAMETERS:  w_zero TYPE xfeld.
+  PARAMETERS:  w_low TYPE xfeld.
+  PARAMETER :  w_ekrg RADIOBUTTON GROUP GR1,
+               w_wrks RADIOBUTTON GROUP GR1.
+ENDENHANCEMENT.

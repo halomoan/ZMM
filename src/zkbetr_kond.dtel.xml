@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZKBETR_KOND</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZWERT15</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>16</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Rate (condition amount or percentage) where no scale exists</DDTEXT>
+    <REPTEXT>Amount</REPTEXT>
+    <SCRTEXT_S>Amount</SCRTEXT_S>
+    <SCRTEXT_M>Amount</SCRTEXT_M>
+    <SCRTEXT_L>Rate</SCRTEXT_L>
+    <APPLCLASS>VF</APPLCLASS>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>价格 (条件金额或百分数 ) 无等级存在</DDTEXT>
+     <REPTEXT>金额</REPTEXT>
+     <SCRTEXT_S>金额</SCRTEXT_S>
+     <SCRTEXT_M>金额</SCRTEXT_M>
+     <SCRTEXT_L>价格</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Konditionsbetrag/-prozentsatz im Nicht-Staffelfall</DDTEXT>
+     <REPTEXT>Betrag</REPTEXT>
+     <SCRTEXT_S>Betrag</SCRTEXT_S>
+     <SCRTEXT_M>Betrag</SCRTEXT_M>
+     <SCRTEXT_L>Konditionsbetrag</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZKBETR_KOND</OBJECT>
+      <LANGU>1</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00009</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZKBETR_KOND</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>1</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>此定价比率使用此定价确定系统如何计算定价码。</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>取决于&lt;GL:condition_type&gt;条款类型&lt;/&gt;，定价比率可为固定金额或百分</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>比。若定价包含</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;GL:pricing_scale&gt;定价范围&lt;/&gt;，则定价比率显示此范围的第一行。</TDLINE>
+      </TLINE>
+      <TLINE/>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>下列示例举例说明如何在不同的条款类型中使用定价比率：</TDLINE>
+      </TLINE>
+      <TLINE/>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>若创建一个包含价格（如物料的价格）的定价，则输入金额。</TDLINE>
+      </TLINE>
+      <TLINE/>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>若基于百分比折扣或附加费（如客户特定的折扣）正创建定价，则输入</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>百分比值。若定价为折扣，系统则在金额后自动输入一个 - 符号，在</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;价格单位&lt;/&gt;字段中输入一个百分比符号。</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZKBETR_KOND</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00015</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZKBETR_KOND</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Betrag oder Prozentsatz, der festlegt, wie das System die Kondition für</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die Preisfindung errechnet. Ob es sich um einen festen Betrag oder um</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>einen Prozentsatz handelt, hängt von der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;GL:Konditionsart&gt;Konditionsart&lt;/&gt; ab. Wenn die Kondition eine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;GL:Staffel&gt;Staffel&lt;/&gt; enthält, erscheint als Betrag oder Prozentsatz</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die erste Stufe der Staffel.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Folgende Beispiele zeigen, wie Sie den Betrag oder Prozentsatz bei</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>verschiedenen Konditionsarten einsetzen:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Wenn Sie eine Kondition erfassen, die Preise enthält (z.B. Preise für</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ein Material), geben Sie einen Betrag ein.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Wenn Sie eine Kondition erfassen, die sich auf einen prozentualen Zu-</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>oder Abschlag bezieht (z.B. einen kundenindividuellen Abschlag), geben</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sie einen Prozentsatz ein. Bei einem Abschlag stellt das System nach</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dem Prozentsatz automatisch ein Minuszeichen und in das Feld für die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Konditionseinheit&lt;/&gt; ein Prozentzeichen ein.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZKBETR_KOND</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00014</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZKBETR_KOND</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The rate that determines how the system calculates pricing using this</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condition. Depending on the &lt;GL:condition_type&gt;condition type&lt;/&gt;, the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>rate can be a fixed amount or a percentage. If the condition includes a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;GL:pricing_scale&gt;pricing scale&lt;/&gt;, the rate displays the first line of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the scale.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The following examples illustrate how you can use the rate in different</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condition types:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>If you create a condition that includes prices (for example, prices for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>a material), you enter an amount.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>If you are creating a condition based on percentage discounts or</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>surcharges (for example, a customer-specific discount), you enter the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>value of a percentage. If the condition is a discount, the system</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>automatically enters a minus sign behind the amount and a percent sign</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>in the &lt;LS&gt;Rate unit&lt;/&gt; field.</TDLINE>
+      </TLINE>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

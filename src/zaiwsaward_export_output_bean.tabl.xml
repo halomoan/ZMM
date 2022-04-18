@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZAIWSAWARD_EXPORT_OUTPUT_BEAN</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>Proxy Structure (generated)</DDTEXT>
+    <MASTERLANG>E</MASTERLANG>
+    <PROXYTYPE>X</PROXYTYPE>
+    <EXCLASS>4</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>CONTROLLER</FIELDNAME>
+     <ROLLNAME>PRXCTRLTAB</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <DATATYPE>TTYP</DATATYPE>
+     <MASK>  TTYPL</MASK>
+     <COMPTYPE>L</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>AWARD_DOCUMENT</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>y</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>RSTR</DATATYPE>
+     <MASK>  RSTR</MASK>
+     <DDTEXT>Contents of the award document (CSV file), base64 encoded.</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ERROR_MESSAGE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>g</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>STRG</DATATYPE>
+     <MASK>  STRG</MASK>
+     <DDTEXT>Message returned from the service execution.</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>MIME_TYPE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>g</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>STRG</DATATYPE>
+     <MASK>  STRG</MASK>
+     <DDTEXT>MIME encoding type used for the award document. The mime typ</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>STATUS</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>X</INTTYPE>
+     <INTLEN>000004</INTLEN>
+     <DATATYPE>INT4</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  INT4</MASK>
+     <DDTEXT>Return status. 0 indicates success.</DDTEXT>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

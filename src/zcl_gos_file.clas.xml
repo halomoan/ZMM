@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_GOS_FILE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>GOS File Class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_GOS_FILE</CLSNAME>
+     <CMPNAME>CNO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>No</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_GOS_FILE</CLSNAME>
+     <CMPNAME>CYES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Yes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_GOS_FILE</CLSNAME>
+     <CMPNAME>C_FALSE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>False</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_GOS_FILE</CLSNAME>
+     <CMPNAME>C_INFINITY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>12/31/9999</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_GOS_FILE</CLSNAME>
+     <CMPNAME>C_INITIAL_DATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Initial Date</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_GOS_FILE</CLSNAME>
+     <CMPNAME>C_TRUE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>True</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_GOS_FILE</CLSNAME>
+     <CMPNAME>GC_TYPE_ARL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code for document class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_GOS_FILE</CLSNAME>
+     <CMPNAME>GC_TYPE_FILE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code for document class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_GOS_FILE</CLSNAME>
+     <CMPNAME>GC_TYPE_NOTE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code for document class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_GOS_FILE</CLSNAME>
+     <CMPNAME>GC_TYPE_URL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code for document class</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

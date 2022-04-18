@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SCVI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SCVI>
+    <SHDSVCI>
+     <SCVARIANT>ZME59NA</SCVARIANT>
+     <PROGNAME>SAPLSVAR</PROGNAME>
+     <DYNPRO>0281</DYNPRO>
+     <VERSION>1</VERSION>
+    </SHDSVCI>
+    <SHDSVTXCI>
+     <SHDSVTXCI>
+      <LANGU>1</LANGU>
+      <SCVARIANT>ZME59NA</SCVARIANT>
+      <SCVTEXT>ZME59NA</SCVTEXT>
+     </SHDSVTXCI>
+     <SHDSVTXCI>
+      <LANGU>E</LANGU>
+      <SCVARIANT>ZME59NA</SCVARIANT>
+      <SCVTEXT>ZME59NA</SCVTEXT>
+     </SHDSVTXCI>
+     <SHDSVTXCI>
+      <LANGU>쁩</LANGU>
+      <SCVARIANT>ZME59NA</SCVARIANT>
+      <SCVTEXT>ZME59NA</SCVTEXT>
+     </SHDSVTXCI>
+    </SHDSVTXCI>
+   </SCVI>
+  </asx:values>
+ </asx:abap>
+</abapGit>

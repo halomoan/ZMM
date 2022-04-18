@@ -1,0 +1,106 @@
+*eject
+*----------------------------------------------------------------------*
+*        BAN sortieren                                                 *
+*----------------------------------------------------------------------*
+FORM BAN_SORT.
+
+  CASE COM-SRTKZ.
+    WHEN 1.
+      IF NOT GS_BANF IS INITIAL.
+*... Gesamtbanfen sollen eine eigene Listaufbereitung haben ..........*
+        SORT BAN BY GSFRG BANFN BNFPO.
+      ELSE.
+        SORT BAN BY BANFN BNFPO.
+      ENDIF.
+    WHEN 2.
+      IF NOT GS_BANF IS INITIAL.
+*... Eine Sortierung ist nur für Positionsfreigabe möglich ...........*
+        BAN_GS[] = BAN[].
+        DELETE BAN_GS WHERE GSFRG EQ SPACE.
+        DELETE BAN    WHERE GSFRG NE SPACE.
+        SORT BAN BY EKGRP MATNR LFDAT BANFN BNFPO.
+        APPEND LINES OF BAN_GS TO BAN.
+      ELSE.
+        SORT BAN BY EKGRP MATNR LFDAT BANFN BNFPO.
+      ENDIF.
+    WHEN 3.
+      IF NOT GS_BANF IS INITIAL.
+*... Eine Sortierung ist nur für Positionsfreigabe möglich ...........*
+        BAN_GS[] = BAN[].
+        DELETE BAN_GS WHERE GSFRG EQ SPACE.
+        DELETE BAN    WHERE GSFRG NE SPACE.
+        SORT BAN BY BEDNR EKGRP WERKS BANFN BNFPO.
+        APPEND LINES OF BAN_GS TO BAN.
+      ELSE.
+        SORT BAN BY BEDNR EKGRP WERKS BANFN BNFPO.
+      ENDIF.
+    WHEN 4.
+      IF NOT GS_BANF IS INITIAL.
+        BAN_GS[] = BAN[].
+        DELETE BAN_GS WHERE GSFRG EQ SPACE.
+        DELETE BAN    WHERE GSFRG NE SPACE.
+        SORT BAN BY FRGDT WERKS BANFN BNFPO.
+        APPEND LINES OF BAN_GS TO BAN.
+      ELSE.
+        SORT BAN BY FRGDT WERKS BANFN BNFPO.
+      ENDIF.
+    WHEN 5.
+      IF NOT GS_BANF IS INITIAL.
+        BAN_GS[] = BAN[].
+        DELETE BAN_GS WHERE GSFRG EQ SPACE.
+        DELETE BAN    WHERE GSFRG NE SPACE.
+        SORT BAN BY MATKL BANFN BNFPO.
+        APPEND LINES OF BAN_GS TO BAN.
+      ELSE.
+        SORT BAN BY MATKL BANFN BNFPO.
+      ENDIF.
+    WHEN 6.
+      IF NOT GS_BANF IS INITIAL.
+        BAN_GS[] = BAN[].
+        DELETE BAN_GS WHERE GSFRG EQ SPACE.
+        DELETE BAN    WHERE GSFRG NE SPACE.
+        SORT BAN BY WERKS DISPO BANFN BNFPO.
+        APPEND LINES OF BAN_GS TO BAN.
+      ELSE.
+        SORT BAN BY WERKS DISPO BANFN BNFPO.
+      ENDIF.
+    WHEN 7.
+*ENHANCEMENT-SECTION     FM06BF01_BAN_SORT_01 SPOTS ES_SAPFM06B.
+      IF NOT GS_BANF IS INITIAL.
+        BAN_GS[] = BAN[].
+        DELETE BAN_GS WHERE GSFRG EQ SPACE.
+        DELETE BAN    WHERE GSFRG NE SPACE.
+        SORT BAN BY MATNR BANFN BNFPO.
+        APPEND LINES OF BAN_GS TO BAN.
+      ELSE.
+        SORT BAN BY MATNR BANFN BNFPO.
+      ENDIF.
+*END-ENHANCEMENT-SECTION.
+    WHEN 8.
+      IF NOT GS_BANF IS INITIAL.
+        BAN_GS[] = BAN[].
+        DELETE BAN_GS WHERE GSFRG EQ SPACE.
+        DELETE BAN    WHERE GSFRG NE SPACE.
+        SORT BAN BY KONT1 KONT2 BANFN BNFPO.
+        APPEND LINES OF BAN_GS TO BAN.
+      ELSE.
+        SORT BAN BY KONT1 KONT2 BANFN BNFPO.
+      ENDIF.
+    WHEN 9.
+      IF NOT GS_BANF IS INITIAL.
+        BAN_GS[] = BAN[].
+        DELETE BAN_GS WHERE GSFRG EQ SPACE.
+        DELETE BAN    WHERE GSFRG NE SPACE.
+        SORT BAN BY RESWK SLIEF EKORG BSART KONNR UPDK1 BANFN BNFPO.
+        APPEND LINES OF BAN_GS TO BAN.
+      ELSE.
+* Begin CCP
+*        SORT BAN BY RESWK SLIEF EKORG BSART KONNR UPDK1 BANFN BNFPO.
+        SORT BAN BY RESWK SLIEF BESWK EKORG BSART KONNR
+                    UPDK1 BANFN BNFPO.
+* End CCP
+      ENDIF.
+  ENDCASE.
+
+*ENHANCEMENT-POINT FM06BF01_BAN_SORT_02 SPOTS ES_SAPFM06B.
+ENDFORM.

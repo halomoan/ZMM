@@ -1,0 +1,91 @@
+*----------------------------------------------------------------------*
+*   INCLUDE RM07RVEP                                                   *
+*----------------------------------------------------------------------*
+*   Selektionsoptionen und Parameter                                   *
+*   für das Selektionsbild des Reports RM07RVER                        *
+*----------------------------------------------------------------------*
+
+SELECTION-SCREEN BEGIN OF BLOCK abgrenzungen WITH FRAME TITLE text-015.
+* Text-015: Datenbankabgrenzungen
+SELECT-OPTIONS rsnum FOR rkpf-rsnum.
+PARAMETER rsdat LIKE rkpf-rsdat DEFAULT sy-datlo.
+SELECT-OPTIONS: s_werks FOR resb-werks OBLIGATORY," NO-EXTENSION NO INTERVALS
+                s_bwart FOR rkpf-bwart.
+
+SELECTION-SCREEN END OF BLOCK abgrenzungen.
+SELECTION-SCREEN SKIP 1.
+SELECTION-SCREEN BEGIN OF BLOCK aktionen WITH FRAME TITLE text-020.
+* Text-020: Auszuführende Aktionen
+SELECTION-SCREEN BEGIN OF LINE.
+PARAMETER xloek LIKE resb-xloek DEFAULT ' ' NO-DISPLAY.
+SELECTION-SCREEN POSITION 32.
+*  SELECTION-SCREEN COMMENT 3(35) TEXT-001 FOR FIELD XLOEK.
+* Text-001: Löschen / Löschkennzeichen setzen
+SELECTION-SCREEN END OF LINE.
+SELECTION-SCREEN BEGIN OF LINE.
+PARAMETER xfert LIKE resb-kzear DEFAULT ' ' NO-DISPLAY.
+SELECTION-SCREEN POSITION 32.
+*  SELECTION-SCREEN COMMENT 3(35) TEXT-003 FOR FIELD XFERT.
+* Text-003: nur erledigte Positionen
+SELECTION-SCREEN END OF LINE.
+SELECTION-SCREEN BEGIN OF LINE.
+PARAMETER xwaok LIKE resb-xwaok DEFAULT 'X'.
+SELECTION-SCREEN POSITION 32.
+SELECTION-SCREEN COMMENT 3(35) text-002 FOR FIELD xwaok.
+* Text-002: Warenbewegung auf erlaubt setzen
+SELECTION-SCREEN END OF LINE.
+SELECTION-SCREEN BEGIN OF LINE.
+PARAMETER xtest LIKE am07m-mbvr_testlauf NO-DISPLAY.
+SELECTION-SCREEN POSITION 32.
+*  SELECTION-SCREEN COMMENT 3(35) TEXT-005 FOR FIELD XTEST.
+* Text-005: Testlauf
+SELECTION-SCREEN END OF LINE.
+SELECTION-SCREEN BEGIN OF LINE.
+PARAMETER xprot LIKE am07m-xprot.
+SELECTION-SCREEN POSITION 32.
+SELECTION-SCREEN COMMENT 3(35) text-004 FOR FIELD xprot.
+* Text-004: Protokoll ausgeben
+SELECTION-SCREEN END OF LINE.
+SELECTION-SCREEN END OF BLOCK aktionen.
+*-- Sperrmodus
+SELECTION-SCREEN SKIP 1.
+SELECTION-SCREEN BEGIN OF BLOCK f_radio WITH FRAME TITLE text-030.
+* Text-030: Sperrmodus
+SELECTION-SCREEN BEGIN OF LINE.
+PARAMETER sin_enq LIKE am07m-reses DEFAULT 'X' RADIOBUTTON GROUP k.
+SELECTION-SCREEN POSITION 32.
+SELECTION-SCREEN COMMENT 3(35) text-013 FOR FIELD sin_enq.
+* Text-013: Reservierungen einzeln sperren
+SELECTION-SCREEN END OF LINE.
+SELECTION-SCREEN BEGIN OF LINE.
+PARAMETER all_enq LIKE am07m-rests RADIOBUTTON GROUP k.
+SELECTION-SCREEN POSITION 32.
+SELECTION-SCREEN COMMENT 3(35) text-012 FOR FIELD all_enq.
+* Text-012: Tabelle der Reservierungen sperren
+SELECTION-SCREEN END OF LINE.
+SELECTION-SCREEN BEGIN OF LINE.
+PARAMETER no_enq LIKE am07m-resns RADIOBUTTON GROUP k.
+SELECTION-SCREEN POSITION 32.
+SELECTION-SCREEN COMMENT 3(35) text-014 FOR FIELD no_enq.
+* Text-014: Reservierungen nicht sperren
+SELECTION-SCREEN END OF LINE.
+SELECTION-SCREEN END OF BLOCK f_radio.
+*-- Kontierung
+SELECTION-SCREEN SKIP 1.
+SELECTION-SCREEN BEGIN OF BLOCK kontierung WITH FRAME TITLE text-010.
+* Text-010: Kontierung
+SELECT-OPTIONS kostl FOR rkpf-kostl MATCHCODE OBJECT kost.
+SELECT-OPTIONS aufnr FOR rkpf-aufnr MATCHCODE OBJECT orde.
+SELECT-OPTIONS projn FOR rkpf-ps_psp_pnr MATCHCODE OBJECT prsm.
+SELECT-OPTIONS nplnr FOR rkpf-nplnr MATCHCODE OBJECT auko.
+SELECT-OPTIONS anln1 FOR rkpf-anln1 MATCHCODE OBJECT aanl.
+SELECT-OPTIONS kdauf FOR rkpf-kdauf.
+SELECT-OPTIONS umwrk FOR rkpf-umwrk.
+SELECT-OPTIONS umlgo FOR rkpf-umlgo.
+PARAMETER xkont LIKE rm07m-xkont DEFAULT ' '.
+SELECTION-SCREEN END OF BLOCK kontierung.
+
+SELECTION-SCREEN BEGIN OF BLOCK liste WITH FRAME TITLE text-026.
+* Text-026: Anzeigeoptionen
+PARAMETERS: p_vari LIKE disvariant-variant.
+SELECTION-SCREEN END OF BLOCK liste.

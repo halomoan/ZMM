@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZAIWSRFXDOCUMENT_INPUT_BEAN</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>Proxy Structure (generated)</DDTEXT>
+    <MASTERLANG>E</MASTERLANG>
+    <PROXYTYPE>X</PROXYTYPE>
+    <EXCLASS>4</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>CONTROLLER</FIELDNAME>
+     <ROLLNAME>PRXCTRLTAB</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <DATATYPE>TTYP</DATATYPE>
+     <MASK>  TTYPL</MASK>
+     <COMPTYPE>L</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ACTION</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>g</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>STRG</DATATYPE>
+     <MASK>  STRG</MASK>
+     <DDTEXT>Specifies the action for the task.  Valid values: Create (cr</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ATTACHMENTS</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>y</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>RSTR</DATATYPE>
+     <MASK>  RSTR</MASK>
+     <DDTEXT>File attachments for the event, in a ZIP file that is base64</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>CONTENTS</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>y</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>RSTR</DATATYPE>
+     <MASK>  RSTR</MASK>
+     <DDTEXT>Event Contents that defines items, rules and participants. A</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>DOCUMENT_ID</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>g</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>STRG</DATATYPE>
+     <MASK>  STRG</MASK>
+     <DDTEXT>DocumentId: Specifies the document ID for the event, such as</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>DOCUMENT_NAME</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>g</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>STRG</DATATYPE>
+     <MASK>  STRG</MASK>
+     <DDTEXT>Specifies the event name. If Action=Create, specify the name</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ON_BEHALF_USER_ID</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>g</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>STRG</DATATYPE>
+     <MASK>  STRG</MASK>
+     <DDTEXT>Specifies the user ID of the user for whom the Ariba web ser</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ON_BEHALF_USER_PASSWORD_ADAPTE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>g</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>STRG</DATATYPE>
+     <MASK>  STRG</MASK>
+     <DDTEXT>Specifies the password adapter to authenticate the user in t</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>RFXDOCUMENT_HEADER_FIELDS</FIELDNAME>
+     <ROLLNAME>ZAIRFXDOCUMENT_WSPROJECT_IMPO6</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <DATATYPE>STRU</DATATYPE>
+     <MASK>  STRUS</MASK>
+     <COMPTYPE>S</COMPTYPE>
+     <PROXYTYPE>X</PROXYTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>REPLACE_EVENT_CONTENT</FIELDNAME>
+     <ROLLNAME>XSDBOOLEAN</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <VALEXI>X</VALEXI>
+     <SHLPORIGIN>F</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>TEMPLATE_ID</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>g</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>STRG</DATATYPE>
+     <MASK>  STRG</MASK>
+     <DDTEXT>System ID that specifies the template to use to create the e</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>WORKSPACE_ID</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>g</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>STRG</DATATYPE>
+     <MASK>  STRG</MASK>
+     <DDTEXT>Specifies the sourcing project (workspace) ID in which the e</DDTEXT>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CMOD" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <MODACT>
+    <MODACT>
+     <NAME>ZMM_IR</NAME>
+    </MODACT>
+    <MODACT>
+     <NAME>ZMM_IR</NAME>
+     <MEMBER>LMR1M001</MEMBER>
+    </MODACT>
+    <MODACT>
+     <NAME>ZMM_IR</NAME>
+     <MEMBER>LMR1M004</MEMBER>
+    </MODACT>
+   </MODACT>
+   <MODTEXT>
+    <MODTEXT>
+     <SPRSL>E</SPRSL>
+     <NAME>ZMM_IR</NAME>
+     <MODTEXT>Update Accounting Document from MIRO</MODTEXT>
+    </MODTEXT>
+   </MODTEXT>
+   <MODATTR>
+    <MODATTR>
+     <NAME>ZMM_IR</NAME>
+     <STATUS>A</STATUS>
+    </MODATTR>
+   </MODATTR>
+  </asx:values>
+ </asx:abap>
+</abapGit>

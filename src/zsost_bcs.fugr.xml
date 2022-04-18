@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Disclose for do not reply</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZSOST_BCSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZSOST_BCS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZFM_GET_USER_ID_DONOTREPLY</FUNCNAME>
+     <SHORT_TEXT>Set user ID Donot Reply</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_UNAME</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>UNAME</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>EX_UNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>User Name</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFM_SET_USER_ID_DONOTREPLY</FUNCNAME>
+     <SHORT_TEXT>Set user ID Donot Reply</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_UNAME</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>UNAME</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_UNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>User Name</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

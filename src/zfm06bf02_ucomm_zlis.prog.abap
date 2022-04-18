@@ -1,0 +1,57 @@
+*eject
+*----------------------------------------------------------------------*
+*    Banfliste zur Zuordnungszeile
+*----------------------------------------------------------------------*
+FORM UCOMM_ZLIS.
+
+  CHECK LISTE EQ 'Z'.
+
+  IF S-FIRSTIND EQ 0.
+    MESSAGE S201.
+    EXIT.
+  ENDIF.
+
+  PERFORM LISTE_MERKEN USING 'X'.
+  LISTE = 'G'.
+  COM-SRTKZ = '9'.
+  READ TABLE BAN INDEX S-FIRSTIND.
+  IF BAN-UPDK1 EQ ALIF.
+    DATA: LPFKEY LIKE SY-PFKEY.
+    LPFKEY = 'BDET'.
+    SET PF-STATUS LPFKEY EXCLUDING EXCL.
+  ELSE.
+    SET PF-STATUS GPFKEY EXCLUDING EXCL.
+  ENDIF.
+  SET TITLEBAR  GFMKEY.
+  CLEAR DET.
+  DET-UPDKZ = BAN-UPDK1.
+  DET-BSART = BAN-BSART.
+  IF DET-UPDKZ EQ ALIF.
+    DET-EKORG = BAN-EKORG.
+    DET-SLIEF = BAN-SLIEF.
+    DET-BUKRS = BAN-BUKRS.
+  ELSE.
+    IF DET-UPDKZ EQ ANFR.
+      DET-EKORG = BAN-EKORG.
+      DET-BUKRS = BAN-BUKRS.
+    ELSE.
+      DET-UPDKZ = 'XX'.
+      DET-EKORG = BAN-EKORG.
+      DET-SLIEF = BAN-SLIEF.
+      DET-RESWK = BAN-RESWK.
+      DET-BESWK = BAN-BESWK. " CCP
+      DET-KONNR = BAN-KONNR.
+      DET-FORDN = BAN-FORDN.
+      DET-BUKRS = BAN-BUKRS.
+    ENDIF.
+  ENDIF.
+  SY-LSIND = 0.
+  PERFORM ZUG_CLEAR.
+  PERFORM BAN_SORT.
+  IF T16LB-DYNPR EQ 0.
+    PERFORM BAN_ZEILEN.
+  ELSE.
+    PERFORM BAN_DYNP_CALL.
+  ENDIF.
+
+ENDFORM.

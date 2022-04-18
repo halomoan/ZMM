@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAISOURCING_PROJECT_WSPROJEC15</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZAISOURCING_PROJECT_WSPROJECT5</OBJ_NAME_M>
+     <HASH_ID>25BAB7C1943AA4F15FC61A3445071551AEC8E098</HASH_ID>
+     <ID>&lt;type&gt; CustomBigDecimal &lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}CustomBigDecimal &lt;type&gt; custom &lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}custom &lt;type&gt; SourcingProject_WSProjectImport urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>CustomBigDecimal</IFR_NAME>
+     <IFR_NSPCE>urn:Ariba:Sourcing:vrealm_3008</IFR_NSPCE>
+     <IFR_GNSPCE>urn:Ariba:Sourcing:vrealm_3008</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZAI</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>urn:Ariba:Sourcing:vrealm_3008</X-ML_NSPCE>
+     <X-ML_NAME>CustomBigDecimal</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAISOURCING_PROJECT_WSPROJEC15</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>CONTENT</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>CONTENT</OBJ_NAME2>
+     <ID>&lt;simpleContent&gt; content &lt;type&gt; CustomBigDecimal &lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}CustomBigDecimal &lt;type&gt; custom &lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}custom &lt;type&gt; SourcingProject_WSProjectImport urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>simpleContent</IFR_TYPE>
+     <IFR_NAME>content</IFR_NAME>
+     <IFR_XSDTYP>decimal</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>CONTENT</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAISOURCING_PROJECT_WSPROJEC15</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>NAME</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>NAME</OBJ_NAME2>
+     <ID>&lt;attribute&gt; name &lt;type&gt; CustomBigDecimal &lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}CustomBigDecimal &lt;type&gt; custom &lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}custom &lt;type&gt; SourcingProject_WSProjectImport urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>attribute</IFR_TYPE>
+     <IFR_NAME>name</IFR_NAME>
+     <IFR_TAGTYP>A</IFR_TAGTYP>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>NAME</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAISOURCING_PROJECT_WSPROJEC15</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZAISOURCING_PROJECT_WSPROJEC15</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZAISOURCING_PROJECT_WSPROJEC15</OBJ_NAME2>
+     <ID>&lt;type&gt; CustomBigDecimal &lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}CustomBigDecimal &lt;type&gt; custom &lt;element&gt; {urn:Ariba:Sourcing:vrealm_3008}custom &lt;type&gt; SourcingProject_WSProjectImport urn:Ariba:Sourcing:vrealm_3008 urn:Ariba:Sourcing:vrealm_3008</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>CustomBigDecimal</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZAISOURCING_PROJECT_WSPROJEC15</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

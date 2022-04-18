@@ -1,0 +1,161 @@
+*eject
+*----------------------------------------------------------------------*
+*        Überschrift                                                   *
+*----------------------------------------------------------------------*
+FORM TOP.
+*- Überschrift Kontierung ---------------------------------------------*
+  IF COM-BKMKZ NE SPACE AND
+     COM-SRTKZ EQ '8'.
+    CASE COM-BKMKZ.
+      WHEN '1'. WRITE / TEXT-K01.
+      WHEN '2'. WRITE / TEXT-K02.
+      WHEN '3'. WRITE / TEXT-K03.
+      WHEN '4'. WRITE / TEXT-K04.
+      WHEN '5'. WRITE / TEXT-K05.
+      WHEN '6'. WRITE / TEXT-K06.
+      WHEN '8'. WRITE / TEXT-K06.                           "602972
+      WHEN '7'. WRITE /.
+    ENDCASE.
+    WRITE:   UEBKNT2 COLOR COL_BACKGROUND INTENSIFIED OFF.
+    SKIP.
+  ENDIF.
+*- Überschrift Zuordnung ----------------------------------------------*
+  IF LISTE EQ 'G' AND
+     DET NE SPACE.
+    IF DET-RESWK NE SPACE.
+      WRITE: / TEXT-064,
+               DET-RESWK COLOR COL_BACKGROUND INTENSIFIED OFF.
+      IF DET-SLIEF NE SPACE.
+        WRITE:  TEXT-058,
+                DET-SLIEF COLOR COL_BACKGROUND INTENSIFIED OFF.
+      ENDIF.
+    ELSE.
+      IF DET-SLIEF NE SPACE.
+        WRITE: / TEXT-058,
+                 DET-SLIEF COLOR COL_BACKGROUND INTENSIFIED OFF.
+      ELSE.
+        WRITE: / TEXT-059.
+      ENDIF.
+    ENDIF.
+    IF DET-EKORG NE SPACE.
+      WRITE: TEXT-061,
+             DET-EKORG COLOR COL_BACKGROUND INTENSIFIED OFF.
+    ENDIF.
+    CASE DET-UPDKZ.
+      WHEN 'XX'.
+        IF DET-KONNR NE SPACE.
+          WRITE:  TEXT-052,
+                  DET-KONNR COLOR COL_BACKGROUND INTENSIFIED OFF.
+        ENDIF.
+      WHEN ANFR.
+        WRITE TEXT-120.
+      WHEN ALIF.
+        WRITE TEXT-120.
+    ENDCASE.
+    SKIP.
+  ENDIF.
+
+*ENHANCEMENT-SECTION     TOP_01 SPOTS ES_SAPFM06B.
+  ULINE.
+*END-ENHANCEMENT-SECTION.
+  FORMAT COLOR COL_HEADING INTENSIFIED.
+  CASE SY-PFKEY.
+*-- Liste der Zuordnungen --------------------------------------------*
+    WHEN ZPFKEY.
+      IF ZUG-RESWK NE SPACE.
+        WRITE: / TEXT-113.
+      ELSE.
+        WRITE: / TEXT-111.
+      ENDIF.
+*-- Konsilieferanten aus Zuordnen ------------------------------------*
+    WHEN 'KONS'.
+      WRITE: / TEXT-005.
+*-- Konsilieferanten aus Banfliste allgemein -------------------------*
+    WHEN 'KONA'.
+      WRITE: / TEXT-005.
+*-- Grundliste --------------------------------------------------------*
+    WHEN OTHERS.
+      IF NOT BAN-GSFRG IS INITIAL AND NOT GS_BANF IS INITIAL.
+*ENHANCEMENT-SECTION     TOP_02 SPOTS ES_SAPFM06B.
+        WRITE: / TEXT-G01.
+        WRITE: / TEXT-U08.
+*END-ENHANCEMENT-SECTION.
+      ENDIF.
+      LOOP AT XT16LD WHERE LHEAD NE SPACE.
+        CASE XT16LD-LHEAD.
+          WHEN 'U01'.
+            IF NOT BAN-GSFRG IS INITIAL AND NOT GS_BANF IS INITIAL.
+              CHECK NOT T16LB-GSPOS IS INITIAL.
+            ENDIF.
+*ENHANCEMENT-SECTION     TOP_03 SPOTS ES_SAPFM06B.
+            WRITE: / TEXT-U01.
+*END-ENHANCEMENT-SECTION.
+          WHEN 'U02'.
+            IF BAN-GSFRG IS INITIAL OR GS_BANF IS INITIAL.
+*ENHANCEMENT-SECTION     TOP_04 SPOTS ES_SAPFM06B.
+              WRITE: / TEXT-U02.
+*END-ENHANCEMENT-SECTION.
+            ELSEIF NOT T16LB-GSPOS IS INITIAL.
+              WRITE: / TEXT-G02.
+            ENDIF.
+          WHEN 'U03'.
+            IF NOT BAN-GSFRG IS INITIAL AND NOT GS_BANF IS INITIAL.
+              CHECK NOT T16LB-GSPOS IS INITIAL.
+            ENDIF.
+*ENHANCEMENT-SECTION     TOP_05 SPOTS ES_SAPFM06B.
+            WRITE: / TEXT-U03.
+*END-ENHANCEMENT-SECTION.
+          WHEN 'U04'.
+            IF NOT BAN-GSFRG IS INITIAL AND NOT GS_BANF IS INITIAL.
+              CHECK NOT T16LB-GSPOS IS INITIAL.
+            ENDIF.
+*ENHANCEMENT-SECTION     TOP_06 SPOTS ES_SAPFM06B.
+            WRITE: / TEXT-U04.
+*END-ENHANCEMENT-SECTION.
+          WHEN 'U05'.
+            IF NOT BAN-GSFRG IS INITIAL AND NOT GS_BANF IS INITIAL.
+              CHECK NOT T16LB-GSPOS IS INITIAL.
+            ENDIF.
+*ENHANCEMENT-SECTION     TOP_07 SPOTS ES_SAPFM06B.
+            WRITE: / TEXT-U05.
+*END-ENHANCEMENT-SECTION.
+          WHEN 'U06'.
+            IF NOT BAN-GSFRG IS INITIAL AND NOT GS_BANF IS INITIAL.
+              CHECK NOT T16LB-GSPOS IS INITIAL.
+            ENDIF.
+*ENHANCEMENT-SECTION     TOP_08 SPOTS ES_SAPFM06B.
+            WRITE: / TEXT-U06.
+*END-ENHANCEMENT-SECTION.
+          WHEN 'U07'.
+            IF NOT BAN-GSFRG IS INITIAL AND NOT GS_BANF IS INITIAL.
+              CHECK NOT T16LB-GSPOS IS INITIAL.
+            ENDIF.
+*ENHANCEMENT-SECTION     TOP_09 SPOTS ES_SAPFM06B.
+            WRITE: / TEXT-U07.
+*END-ENHANCEMENT-SECTION.
+          WHEN 'U08'.
+            IF BAN-GSFRG IS INITIAL.
+*ENHANCEMENT-SECTION     TOP_10 SPOTS ES_SAPFM06B.
+              WRITE: / TEXT-U08.
+*END-ENHANCEMENT-SECTION.
+            ENDIF.
+          WHEN 'U21'.
+            IF NOT BAN-GSFRG IS INITIAL AND NOT GS_BANF IS INITIAL.
+              CHECK NOT T16LB-GSPOS IS INITIAL.
+            ENDIF.
+*ENHANCEMENT-SECTION     TOP_11 SPOTS ES_SAPFM06B.
+            WRITE: / TEXT-U21.
+*END-ENHANCEMENT-SECTION.
+          WHEN OTHERS.
+*ENHANCEMENT-POINT TOP_12 SPOTS ES_SAPFM06B.
+
+        ENDCASE.
+      ENDLOOP.
+  ENDCASE.
+*ENHANCEMENT-SECTION     TOP_13 SPOTS ES_SAPFM06B.
+  ULINE.
+*END-ENHANCEMENT-SECTION.
+
+ENDFORM.
+
+*ENHANCEMENT-POINT TOP_14 SPOTS ES_SAPFM06B STATIC .

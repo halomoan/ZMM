@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHC" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SHORTTEXT>Enhancement for ME05</SHORTTEXT>
+   <ENH_CHILDS>
+    <ENHNAME>ZMM_ME05_ADDFIELD</ENHNAME>
+    <ENHNAME>ZMM_ME05_ADDPARAM</ENHNAME>
+   </ENH_CHILDS>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>005056951AE31ED8A0846F2D545000CC</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AACA</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>005056951AE31ED8A0846F2D545000CC</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>030</LENGTH>
+       <TEXT>Enhancement for ME05</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHC</OBJECT>
+     <OBJ_NAME>ZMM_ME05_ADD</OBJ_NAME>
+     <CONCEPT>005056951AE31ED8A0846F2D545000CC</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>
